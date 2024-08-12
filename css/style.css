@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.c_background{
+    background: rgba(0,0,0,0.7) url("../images/backyard.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav_list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 30%;
+    border: 1px  solid wheat;
+    border-radius: 40px;
+}
+.nav_list li{
+    list-style: none;
+    padding: 25px 30px;
+
+}
+.nav_list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav_list li a:hover{
+    color: rgb(238, 71, 71);
+}
+.r_nav{
+    width: 30%;
+    padding: 0 20px;
+    text-align: right;
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+.button{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+.c_button{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 5%;
+
+}
+.line{
+    width: 30px;
+    margin: 4px 4px;
+    background-color: white;
+    height: 4px;
+}
+.first_section{
+    height: 100vh;
+
+}
+.box_main{
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.f_half{
+    width: 80%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.b_text{
+font-size: 40px;
+font-weight: bolder;
+}
+.s_text{
+font-size: 20px;
+}
+.s_half{
+    width: 30%;
+}
+.s_half img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 2px solid wheat;
+    border-radius: 100px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+.sec_right{
+    padding: 0 65px;
+}
+.sec_2{
+    flex-direction: row-reverse;
+}
+.thumbnail img{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.contact{
+    height: 550px;
+    background-color: antiquewhite;
+}
+.contact_tag{
+    text-align: center;
+}
+.form{
+    max-width: 350px;
+    margin: 30px auto;
+}
+.form input{
+    margin: 15px 0;
+    padding: 4px 3px;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.contact_button{
+    color: black;
+    border: 1px solid black;
+}
+.contact_button:hover{
+    color: aliceblue;
+    background-color: rgb(18, 17, 17);
+}
+.f_text{
+    color: aliceblue;
+    padding: 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
